@@ -46,4 +46,4 @@ Source of the merged flipbook: `yurikotik/Sideshow-Slides-` on `main`.
 
 ## Streamlit dashboard (optional)
 
-`app.py` + `requirements.txt` + `runtime.txt` remain for a separate Streamlit / Supabase data view. That path is independent of the Vercel static flipbook.
+Under `dashboard/`: `app.py`, `requirements.txt`, `runtime.txt` — a separate Streamlit / Supabase data view. Independent of the Vercel static flipbook (excluded via `.vercelignore`). On Streamlit Community Cloud, set the main file to `dashboard/app.py`.
